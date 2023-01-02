@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    color:rgb(82, 82, 153);
+}
+.Home{
+    display:flex;
+    margin-top:75px;
+    justify-content: center;
+}
+.pic{
+    width:fit-content;
+    height:fit-content
+}
+button{
+    margin:3px;
+    border:0px;
+    background-color: white;
+}
+.Tab{
+    display:flex;
+    justify-content: center;
+    
+}
+#picture{
+    width:500px;
+    height:350px;
+}
+.module{
+    padding-top: 60px;
+}
+.tab-but button{
+border-radius: 5px;
+width:75px;
+
+}
+#cont{
+    background-color: aqua;
+    width:150px;
+    height: 30px;
+    border-radius: 5px;
+}

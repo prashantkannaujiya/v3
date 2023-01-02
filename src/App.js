@@ -1,25 +1,49 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './Style.css';
+import Home from './Home';
+import { useState, useEffect } from 'react';
+import Pamplet from './Pamplet';
+import Tabular from './Tabular';
+import Indexpage from './Indexpage';
 function App() {
+  var u;
+  var [page, setpage] = useState(1);
+
+
+  function inc() {
+
+    var t = page;
+    t++;
+    setpage((t));
+  }
+  function dec() {
+    var t = page;
+    t--;
+    setpage(t);
+  }
+  function updatepage(m, t) {
+    var k = Pamplet.find((e) => {
+      return (e.module == m && e.tab == t)
+    })
+    setpage(k.page);
+  }
+  function toIndex(b) {
+    setpage(b);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+      {(page == 1 ? <Home p={toIndex}></Home> : '')}
+      {(page == 2 ? <Indexpage x={toIndex}></Indexpage> : '')}
+
+      {(page > 2 ? <Tabular p={page} upage={updatepage}></Tabular> : '')}
+      <div className='menu'>
+        <button onClick={() => { setpage(1); }}>Home</button>
+        <button onClick={dec}>{'<'}</button>
+        {' ' + page + ' '}
+        <button onClick={inc}>{'>'}</button>
+      </div>
+    </div>
+  )
+}
 export default App;
