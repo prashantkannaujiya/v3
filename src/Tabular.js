@@ -3,26 +3,26 @@ import Pamplet from "./Pamplet";
 import './Style.css';
 function Tabular(props) {
     var [loc, setloc] = useState({});
-  
+  var found;
     useEffect(() => {
         if (props.p > 2) {
-            var found = Pamplet.find((e) => {
+            found = Pamplet.find((e) => {
                 return e.page == props.p;
             })
 
 
             console.log(found);
             console.log(found.module);
-            setloc(found)
+           
         }
-        var k = document.getElementsByTagName('button');
+        var k = document.getElementsByClassName('tabbut');
         console.log('in useeffect')
         console.log(k)
         for (var i = 0; i < k.length; i++) {
             k[i].style.backgroundColor = 'white';
         }
         k[found.tab - 1].style.backgroundColor = 'cyan';
-
+        setloc(found)
     }, [props]);
 
     function clickedtab(el) {
@@ -39,9 +39,9 @@ function Tabular(props) {
             <div className="module"><h2>Module {loc.module}</h2></div>
 
             <div className="tab-but">
-                <button onClick={(event) => { console.log(event); clickedtab(1) }}><h3>Tab 1</h3></button>
-                <button onClick={(e) => { clickedtab(2) }}><h3>Tab 2</h3></button>
-                <button onClick={(e) => { clickedtab(3) }}><h3>Tab 3</h3></button>
+                <button onClick={(event) => { console.log(event); clickedtab(1) }} className='tabbut'><h3>Tab 1</h3></button>
+                <button onClick={(e) => { clickedtab(2) }} className='tabbut'><h3>Tab 2</h3></button>
+                <button onClick={(e) => { clickedtab(3) }} className='tabbut'><h3>Tab 3</h3></button>
             </div>
             <div>
                 <div className='Tab'>

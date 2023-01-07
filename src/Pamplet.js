@@ -11,8 +11,7 @@ export default [
         "tab":2,
         "page":8,
         "pic":"https://entrepreneurhandbook.co.uk/wp-content/uploads/2014/01/Leader-showing-the-way.jpg.webp",
-        "des":"It is very important to increase your typing speed and accuracy so that you can achieve a high wpm score with 95% above accuracy in your typing test. In order to improve your typing speed, you must try a new English paragraph for typing practice so that you can master and memorize new words"
-
+        "des":"Being involved in an undertaking that enables me to utilize my skills and ability completely to fulfill tasks. It provides me an opportunity to act progressively towards achieving organizational as well as professional targets."
     },
     {
         "module":1,
@@ -35,8 +34,7 @@ export default [
         "tab":2,
         "page":9,
         "pic":"https://img.freepik.com/free-photo/college-girl-boy-studying-together_23-2149038397.jpg?w=2000",
-        "des":"It is very important to increase your typing speed and accuracy so that you can achieve a high wpm score with 95% above accuracy in your typing test. In order to improve your typing speed, you must try a new English paragraph for typing practice so that you can master and memorize new words"
-
+        "des":"Being involved in an undertaking that enables me to utilize my skills and ability completely to fulfill tasks. It provides me an opportunity to act progressively towards achieving organizational as well as professional targets."
    },
    {
     "module":2,
@@ -51,8 +49,7 @@ export default [
         "tab":1,
         "page":5,
         "pic":'https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-80131937/80131937.jpg',
-        "des":"It is very important to increase your typing speed and accuracy so that you can achieve a high wpm score with 95% above accuracy in your typing test. In order to improve your typing speed, you must try a new English paragraph for typing practice so that you can master and memorize new words"
-
+        "des":"Being involved in an undertaking that enables me to utilize my skills and ability completely to fulfill tasks. It provides me an opportunity to act progressively towards achieving organizational as well as professional targets."
    },
    {
     "module":3,
@@ -75,8 +72,7 @@ export default [
         "tab":1,
         "page":6,
         "pic":'https://blog.vantagecircle.com/content/images/2020/08/teamwork-and-team-building.png',
-        "des":"It is very important to increase your typing speed and accuracy so that you can achieve a high wpm score with 95% above accuracy in your typing test. In order to improve your typing speed, you must try a new English paragraph for typing practice so that you can master and memorize new words"
-
+        "des":"Being involved in an undertaking that enables me to utilize my skills and ability completely to fulfill tasks. It provides me an opportunity to act progressively towards achieving organizational as well as professional targets."
    },
 {
     "module":4,
@@ -91,8 +87,7 @@ export default [
     "tab":3,
     "page":16,
     "pic":'https://www.incimages.com/uploaded_files/image/1920x1080/getty_495142964_198701.jpg',
-    "des":"It is very important to increase your typing speed and accuracy so that you can achieve a high wpm score with 95% above accuracy in your typing test. In order to improve your typing speed, you must try a new English paragraph for typing practice so that you can master and memorize new words"
-
+    "des":"Being involved in an undertaking that enables me to utilize my skills and ability completely to fulfill tasks. It provides me an opportunity to act progressively towards achieving organizational as well as professional targets."
 },
 {
     "module":5,

@@ -39,3 +39,10 @@ width:75px;
     height: 30px;
     border-radius: 5px;
 }
+.search{
+    width:75%;
+    border: 2px solid;
+margin-top: 8px;
+position:relative;
+left:4cm;
+}
