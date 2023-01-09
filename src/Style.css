@@ -1,48 +1,54 @@
-*{
-    text-align: center;
-    color:rgb(82, 82, 153);
-}
-.Home{
-    display:flex;
-    margin-top:75px;
-    justify-content: center;
-}
-.pic{
-    width:fit-content;
-    height:fit-content
-}
-button{
-    margin:3px;
-    border:0px;
-    background-color: white;
-}
-.Tab{
-    display:flex;
-    justify-content: center;
-    
-}
-#picture{
-    width:500px;
-    height:350px;
-}
-.module{
-    padding-top: 60px;
-}
-.tab-but button{
-border-radius: 5px;
-width:75px;
 
-}
-#cont{
-    background-color: aqua;
-    width:150px;
-    height: 30px;
-    border-radius: 5px;
-}
-.search{
-    width:75%;
-    border: 2px solid;
-margin-top: 8px;
-position:relative;
-left:4cm;
-}
+#div1,#div2,#div3,#div4{
+    width: 300px;
+   height:400px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+  .stacks{
+    display: flex;
+    justify-content: space-around;
+  }
+  h1{
+    text-align: center;
+  }
+  .redbox,.redbox input{
+    background-color: rgb(172, 99, 99);
+   
+    margin:5px;
+  }
+ 
+
+   .greenbox,.greenbox input{
+    background-color: rgb(69, 160, 69);
+    margin:5px;
+   }
+   .bluebox,.bluebox input{
+    background-color: rgb(80, 80, 139);
+    margin:5px;
+   }
+
+  .blackbox,.blackbox input{
+    background-color: rgb(75, 74, 74);
+    color: aliceblue;
+    margin:5px;
+  }
+  input{
+    width:336;
+    height: 69;
+    border:0px;
+    
+    border-bottom: 1px rgb(53, 53, 53) solid;
+    }
+    .redbox,.greenbox,.bluebox,.blackbox{
+      height: 35px;
+      
+    }
+    #del{
+      position: relative;
+      left:1.9cm;
+      height: 25px;
+      width:30px;
+      color:aliceblue;
+      background-color: black;
+    }
